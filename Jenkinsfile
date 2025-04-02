@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Source Code') {
             steps {
-                git branch: 'master', url: 'https://github.com/nikhiljoshi7712/QuizApp'
+                git branch: 'master', url: 'https://github.com/singhpradeep888/QuizApp'
             }
         }
         stage('Build') {
@@ -20,7 +20,7 @@ pipeline {
         // stage('Deploy') {
         //     steps {
         //         // Check which user Jenkins is running as
-        //         sh 'echo "Urm560037NJ@" | sudo -S cp /Users/nikhiljoshi/Desktop/miniDevOps/QuizApp/target/QuizApp.war /Users/nikhiljoshi/tomcat/webapps'
+        //         sh 'echo "Urm560037NJ@" | sudo -S cp /Users/pradeep/Desktop/miniDevOps/QuizApp/target/QuizApp.war /Users/singhpradeep/tomcat/webapps'
         //     }
         // }
     }
